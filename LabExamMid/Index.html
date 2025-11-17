@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>News Portal - Comment System</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Global News Portal</h1>
+            <p>Your trusted source for timely news and stories</p>
+        </header>
+
+        <article class="article-container" aria-labelledby="article1-title">
+            <h1 id="article1-title" class="article-title">Climate Change Summit Yields New Global Agreements</h1>
+            <div class="article-meta">
+                Published on October 15, 2023 | By Environmental Correspondent
+            </div>
+            <div class="article-content">
+                <p>The recent Climate Change Summit brought together leaders from over 150 nations to address the urgent challenges posed by global warming. Delegates discussed innovative strategies to reduce carbon emissions, strengthen climate resilience, and accelerate the transition to renewable energy. Key agreements included ambitious targets to phase out coal-fired power plants, expand funding for clean energy research, and implement stricter regulations on industrial emissions. The summit emphasized global cooperation, recognizing that climate change is a shared responsibility requiring collective action. Experts hailed the outcomes as a significant step toward a sustainable future, though they stressed the importance of immediate implementation to meet the 2030 targets. With these commitments, the world moves closer to a more sustainable and resilient future for generations to come.</p>
+
+            </div>
+
+            <section class="comment-section" data-article-id="1" aria-label="Comments for article 1">
+                <h2 class="section-title">Comments</h2>
+                
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <div class="stat-value total-comments">0</div>
+                        <div class="stat-label">Total Comments</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value average-rating">0.0</div>
+                        <div class="stat-label">Average Rating</div>
+                    </div>
+                </div>
+
+                <div class="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <form class="commentForm">
+                        <div class="form-group">
+                            <label>Name *</label>
+                            <input type="text" name="name" placeholder="Your name" class="name">
+                            <div class="error-message name-error">Name should be between 2 and 50 characters</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Your email (optional)" class="email">
+                            <div class="error-message email-error">Please enter a valid email address</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Comment *</label>
+                            <textarea name="comment" placeholder="Share your thoughts..." class="comment-text"></textarea>
+                            <div class="error-message comment-error">Comment should be between 10 and 500 characters</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Content Rating (Optional)</label>
+                            <div class="rating-container">
+                                <div class="star-rating">
+                                    <span class="star" data-value="1">★</span>
+                                    <span class="star" data-value="2">★</span>
+                                    <span class="star" data-value="3">★</span>
+                                    <span class="star" data-value="4">★</span>
+                                    <span class="star" data-value="5">★</span>
+                                </div>
+                                <div class="rating-value">No rating selected</div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Post Comment</button>
+                    </form>
+                </div>
+
+                <div class="comments-list">
+                    <div class="no-comments">No comments yet. Be the first to share your thoughts!</div>
+                </div>
+            </section>
+        </article>
+
+        <article class="article-container" aria-labelledby="article2-title">
+            <h1 id="article2-title" class="article-title">Breakthrough in Renewable Battery Tech Promises Cheaper Storage</h1>
+            <div class="article-meta">
+                Published on November 7, 2024 | By Tech & Energy Desk
+            </div>
+            <div class="article-content">
+                <p>Scientists and engineers have announced a breakthrough in renewable battery technology that promises to revolutionize energy storage. The new batteries offer significantly higher efficiency, longer lifespan, and lower production costs, making renewable energy sources like solar and wind more reliable and accessible. By utilizing advanced materials and innovative design, these batteries can store larger amounts of energy while charging and discharging faster than conventional systems. Industry experts predict that this development could dramatically reduce electricity costs and accelerate the adoption of clean energy worldwide. Governments and private companies are already exploring large-scale implementation, aiming to integrate this technology into homes, businesses, and the national power grid. This advancement marks a critical step toward a more sustainable and energy-independent future.</p>
+
+
+
+            </div>
+
+            <section class="comment-section" data-article-id="2" aria-label="Comments for article 2">
+                <h2 class="section-title">Comments</h2>
+                
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <div class="stat-value total-comments">0</div>
+                        <div class="stat-label">Total Comments</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value average-rating">0.0</div>
+                        <div class="stat-label">Average Rating</div>
+                    </div>
+                </div>
+
+                <div class="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <form class="commentForm">
+                        <div class="form-group">
+                            <label>Name *</label>
+                            <input type="text" name="name" placeholder="Your name" class="name">
+                            <div class="error-message name-error">Name should be between 2 and 50 characters</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Your email (optional)" class="email">
+                            <div class="error-message email-error">Please enter a valid email address</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Comment *</label>
+                            <textarea name="comment" placeholder="Share your thoughts..." class="comment-text"></textarea>
+                            <div class="error-message comment-error">Comment should be between 10 and 500 characters</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Content Rating (Optional)</label>
+                            <div class="rating-container">
+                                <div class="star-rating">
+                                    <span class="star" data-value="1">★</span>
+                                    <span class="star" data-value="2">★</span>
+                                    <span class="star" data-value="3">★</span>
+                                    <span class="star" data-value="4">★</span>
+                                    <span class="star" data-value="5">★</span>
+                                </div>
+                                <div class="rating-value">No rating selected</div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Post Comment</button>
+                    </form>
+                </div>
+
+                <div class="comments-list">
+                    <div class="no-comments">No comments yet. Be the first to share your thoughts!</div>
+                </div>
+            </section>
+        </article>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
